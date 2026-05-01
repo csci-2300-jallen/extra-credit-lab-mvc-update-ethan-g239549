@@ -26,19 +26,23 @@ const std::vector<Point2D>& Robot::getHistory() const {
 }
 
 void Robot::moveUp() {
-    moveTo(x, y - 1);
+    int step = getStep();
+    moveTo(x, y - step);
 }
 
 void Robot::moveDown() {
-    moveTo(x, y + 1);
+    int step = getStep();
+    moveTo(x, y + step);
 }
 
 void Robot::moveLeft() {
-    moveTo(x - 1, y);
+    int step = getStep();
+    moveTo(x - step, y);
 }
 
 void Robot::moveRight() {
-    moveTo(x + 1, y);
+    int step = getStep();
+    moveTo(x + step, y);
 }
 
 void Robot::undo() {
@@ -124,4 +128,5 @@ void Robot::recordPosition() {
 
     history.push_back({x, y});
     currentHistoryIndex = static_cast<int>(history.size()) - 1;
+    moveCount_++;
 }

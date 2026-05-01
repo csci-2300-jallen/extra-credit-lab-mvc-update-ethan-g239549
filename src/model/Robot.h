@@ -27,6 +27,7 @@ public:
 
     void saveToFile(const std::string& filePath) const;
     void loadFromFile(const std::string& filePath);
+    int getStep() const { return (moveCount_ >= 10) ? 2 : 1; }
 
 private:
     void moveTo(int newX, int newY);
@@ -38,4 +39,5 @@ private:
     int y = 2;
     int currentHistoryIndex = 0;
     std::vector<Point2D> history = {{2, 2}};
+    int moveCount_ = 0;
 };
