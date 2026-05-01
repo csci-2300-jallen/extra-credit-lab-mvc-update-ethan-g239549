@@ -1,0 +1,18 @@
+# ninja log v7
+1	53	1777656307719800011	app_autogen/timestamp	a148acaf1129c664
+1	53	1777656307719800011	app_autogen/mocs_compilation.cpp	a148acaf1129c664
+1	53	1777656307719800011	/Users/ethangraham/Documents/csci2300/extra-credit-lab-mvc-update-ethan-g239549/build/app_autogen/timestamp	a148acaf1129c664
+1	53	1777656307719800011	/Users/ethangraham/Documents/csci2300/extra-credit-lab-mvc-update-ethan-g239549/build/app_autogen/mocs_compilation.cpp	a148acaf1129c664
+55	108	1777656307732178335	CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o	8bbeec36b4c0bdce
+55	666	1777656307732557542	CMakeFiles/app.dir/src/model/Robot.cpp.o	d8204b5d460954be
+55	1587	1777656307732425084	CMakeFiles/app.dir/src/main.cpp.o	1cd4eff2b68d85a2
+55	1954	1777656307732757874	CMakeFiles/app.dir/src/controller/RobotController.cpp.o	d9f9b078712c432f
+56	1955	1777656307733020248	CMakeFiles/app.dir/src/view/RobotWindow.cpp.o	adc9badcb9ae65c9
+56	1956	1777656307732892165	CMakeFiles/app.dir/src/view/RobotGridWidget.cpp.o	caa5714fa979b878
+1956	2545	1777656309633231072	app	4a9b319dbb831aa5
+7	34	1777656498033698676	app_autogen/timestamp	a148acaf1129c664
+7	34	1777656498033698676	app_autogen/mocs_compilation.cpp	a148acaf1129c664
+7	34	1777656498033698676	/Users/ethangraham/Documents/csci2300/extra-credit-lab-mvc-update-ethan-g239549/build/app_autogen/timestamp	a148acaf1129c664
+7	34	1777656498033698676	/Users/ethangraham/Documents/csci2300/extra-credit-lab-mvc-update-ethan-g239549/build/app_autogen/mocs_compilation.cpp	a148acaf1129c664
+34	1185	1777656498060471817	CMakeFiles/app.dir/src/controller/RobotController.cpp.o	d9f9b078712c432f
+1186	1389	1777656499212040031	app	4a9b319dbb831aa5
